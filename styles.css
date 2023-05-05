@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 100px;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.header {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: normal;
+}
+
+.sign-box, .sign-up {
+    background-color: #3882F6
+}
+
+.content {
+    background-color: #E5E7EB;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
