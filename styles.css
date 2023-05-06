@@ -1,11 +1,35 @@
 body {
     display: flex;
     flex-direction: column;
-    padding: 10px 100px;
+    height: 100vh;
 }
 
-.header, .hero, .footer {
-    background-color: #1F2937
+.header {
+    display: flex;
+    padding: 20px 200px;
+}
+
+.logo {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.hero {
+    display: flex;
+    padding: 50px 200px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-img {
+    height: 200px;
+    width: 500px;
+    background-color: grey;
 }
 
 .main {
@@ -14,10 +38,65 @@ body {
     font-weight: 800;
 }
 
-.header {
+.content {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+    flex: 1
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.content-img {
+    height: 100px;
+    width:100px;
+    border: skyblue;
+    border-style: solid;
+}
+
+.information {
+    display: flex;
+}
+
+.info {
     font-size: 18px;
-    color: #F9FAF8;
-    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    margin-left:auto;
+}
+
+.footer {
+    height: 100px;
+    border-style: solid;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header, .hero, .footer {
+    background-color: #1F2937
 }
 
 .secondary {
@@ -28,25 +107,4 @@ body {
 
 .sign-box, .sign-up {
     background-color: #3882F6
-}
-
-.content {
-    background-color: #E5E7EB;
-}
-
-.info-header {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 800;
-}
-
-.info {
-    font-size: 18px;
-}
-
-.quote {
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 300;
-    color: #1F2937;
 }
